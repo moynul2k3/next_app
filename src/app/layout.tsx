@@ -4,7 +4,7 @@ import "./globals.css";
 import 'boxicons/css/boxicons.min.css';
 import '@splidejs/react-splide/css';
 import Header from "@/app/utils/header";
-import Categories from './utils/Categories';
+// import Categories from './utils/Categories';
 
 
 const geistSans = Geist({
@@ -40,7 +40,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header>
-              <Categories />
+              {/* <Categories /> */}
         </Header>
 
         <div className="z-30">
