@@ -1,9 +1,6 @@
 import Link from "next/link";
 
-const API_URL =
-  process.env.NEXT_PUBLIC_PRODUCTION === "true"
-    ? process.env.NEXT_PUBLIC_PRODUCTION_API
-    : process.env.NEXT_PUBLIC_LOCAL_API;
+const API_URL = "http://127.0.0.1:8000/api"
 
 import {
     NavigationMenu,
